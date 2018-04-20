@@ -1,0 +1,51 @@
+ table {
+     width: 100%;
+     font-size: 1em;
+ }
+
+ thead,
+ tbody,
+ tr,
+ td,
+ th {
+     display: block;
+     font-size: .9em;
+ }
+
+ tr:after {
+     content: ' ';
+     display: block;
+     visibility: hidden;
+     clear: both;
+ }
+
+ thead th {
+     height: 50px; //    text-align: left;
+ }
+
+ tbody td {
+     text-align: left   ;
+ }
+
+ tbody td:nth-child(5) {
+    padding-left: 40px;
+ }
+
+ tbody td:nth-child(7) {
+     text-align: right;
+ }
+
+ tbody {
+     height: 320px;
+     overflow-y: auto;
+ }
+
+//  thead {
+//      /* fallback */
+//  }
+
+ tbody td,
+ thead th {
+     width: 14%;
+     float: left;
+ }

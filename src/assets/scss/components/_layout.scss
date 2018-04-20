@@ -1,0 +1,31 @@
+.containers {
+    margin-top: 60px;
+    padding: 1em;
+    transition: .6s ease-in-out;
+}
+
+.side-containers {
+    margin-top: 60px;
+    margin-left: 200px;
+    padding: 1em;
+    transition: .6s ease-in-out;
+}
+
+.layouts {
+    background: rgb(39, 39, 39);
+    padding: 1em;
+    
+    .btn {
+        i {
+            margin-right: 20px;
+        }
+    }
+    .btn:hover {
+        i {
+            color: rgb(61, 187, 124);
+        }
+        span {
+            color: rgb(64, 117, 179);
+        }
+    }
+}

@@ -1,0 +1,18 @@
+body {
+    font-family: $padauk;
+    font-size: 1rem;
+    font-weight: $light;
+    transition: .6s all ease-in-out;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: $kaushan;
+}
+
+h1 {
+    color: $brand-primary;
+}
